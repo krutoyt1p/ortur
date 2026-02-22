@@ -40,7 +40,7 @@ RU_FILES = ["ru_white_part1.txt", "ru_white_part2.txt", "ru_white_part3.txt", "r
 EURO_FILES = ["my_euro_part1.txt", "my_euro_part2.txt", "my_euro_part3.txt"]
 
 HISTORY_FILE = os.path.join(BASE_DIR, "history.json")
-MY_CHANNEL = "@vlesstrojan"
+MY_CHANNEL = "@orturVPN"
 
 URLS_RU = [
     "https://github.com/igareck/vpn-configs-for-russia/blob/main/BLACK_VLESS_RUS_mobile.txt",
@@ -268,7 +268,7 @@ def save_chunked(keys_list, folder, base_name):
 
 def generate_subscriptions_list():
     """Генерирует subscriptions_list.txt с аккуратным набором ссылок."""
-    GITHUB_USER_REPO = "kort0881/vpn-checker-backend"
+    GITHUB_USER_REPO = "krutoyt1p/ortur"
     BRANCH = "main"
     BASE_RAW = f"https://raw.githubusercontent.com/{GITHUB_USER_REPO}/{BRANCH}"
 
@@ -456,6 +456,7 @@ if __name__ == "__main__":
     print("\n✅ SUCCESS: FAST/ALL LAYERS GENERATED")
     print(f"  Префильтр использует: {len(RU_FILES)} RU + {len(EURO_FILES)} EURO (FAST)")
     print(f"  Постер покажет: ~9-11 кнопок (FAST + ограниченные ALL)")
+
 
 
 
